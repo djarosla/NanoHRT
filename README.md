@@ -2,17 +2,17 @@
 
 ### Set up CMSSW
 
-## 2017 version
+## 2016 version
 ```bash
-cmsrel CMSSW_10_2_15
-cd CMSSW_10_2_15/src
+cmsrel CMSSW_9_4_12
+cd CMSSW_9_4_12/src
 cmsenv
 ```
 
 ### Get customized NanoAOD producers for HeavyResTagging
 
 ```bash
-git clone https://github.com/knash/NanoHRT.git PhysicsTools/NanoHRT
+git clone https://github.com/djarosla/NanoHRT.git PhysicsTools/NanoHRT
 cd PhysicsTools/NanoHRT
 git fetch 
 git checkout origin/ForTraining --track
